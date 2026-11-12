@@ -1,0 +1,37 @@
+Destination Port,Attack_Category,Count
+0,Benign,1561
+0,Port Scan,6
+21,Benign,3441
+21,Brute Force,5930
+21,Port Scan,243
+22,Benign,6868
+22,Brute Force,3219
+22,Port Scan,243
+53,Benign,876783
+53,Port Scan,101
+80,Benign,217956
+80,Brute Force,1
+80,DDoS,128011
+80,DoS,193745
+80,Port Scan,372
+80,Web Attack,2143
+88,Benign,5062
+88,Port Scan,87
+123,Benign,21333
+123,Port Scan,1
+137,Benign,2938
+139,Benign,2287
+139,Port Scan,196
+389,Benign,5826
+389,Port Scan,88
+443,Benign,470173
+443,Port Scan,146
+445,Benign,1911
+445,Port Scan,179
+465,Benign,2786
+465,Port Scan,84
+3268,Benign,2357
+3268,Port Scan,86
+8080,Benign,1332
+8080,Bot,1247
+8080,Port Scan,109

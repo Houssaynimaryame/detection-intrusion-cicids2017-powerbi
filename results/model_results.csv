@@ -1,0 +1,6 @@
+Model,Accuracy,Precision_weighted,Recall_weighted,F1_weighted,Macro_F1,MCC,Train_seconds,Inference_ms_per_1000_flows
+LightGBM (poids sqrt),0.9963,0.9963,0.9963,0.9963,0.9414,0.9876,182.7,22.55
+XGBoost (poids sqrt),0.9963,0.9964,0.9963,0.9963,0.9264,0.9876,182.6,5.51
+Random Forest,0.9928,0.9928,0.9928,0.9926,0.9,0.9758,864.2,10.45
+XGBoost,0.9955,0.995,0.9955,0.9952,0.8413,0.985,192.2,5.03
+Logistic Regression (baseline),0.8147,0.9657,0.8147,0.8796,0.6269,0.6255,173.6,0.74

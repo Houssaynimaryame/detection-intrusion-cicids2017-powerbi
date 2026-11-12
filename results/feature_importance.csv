@@ -1,0 +1,80 @@
+Model,Feature,Importance
+LightGBM (poids sqrt),Destination Port,4917
+LightGBM (poids sqrt),Init_Win_bytes_forward,4434
+LightGBM (poids sqrt),Flow IAT Min,4095
+LightGBM (poids sqrt),Init_Win_bytes_backward,2780
+LightGBM (poids sqrt),Fwd IAT Min,2366
+LightGBM (poids sqrt),Flow Duration,1630
+LightGBM (poids sqrt),Fwd IAT Std,1299
+LightGBM (poids sqrt),Flow Bytes/s,1191
+LightGBM (poids sqrt),Bwd Packets/s,1053
+LightGBM (poids sqrt),Fwd IAT Total,989
+LightGBM (poids sqrt),Fwd Header Length,981
+LightGBM (poids sqrt),Flow IAT Mean,955
+LightGBM (poids sqrt),min_seg_size_forward,953
+LightGBM (poids sqrt),Fwd Packets/s,837
+LightGBM (poids sqrt),Fwd IAT Mean,826
+LightGBM (poids sqrt),Bwd IAT Min,745
+LightGBM (poids sqrt),Flow IAT Max,728
+LightGBM (poids sqrt),Flow Packets/s,711
+LightGBM (poids sqrt),Total Length of Fwd Packets,678
+LightGBM (poids sqrt),Bwd IAT Std,616
+LightGBM (poids sqrt),URG Flag Count,546
+LightGBM (poids sqrt),Fwd Packet Length Max,526
+LightGBM (poids sqrt),Total Length of Bwd Packets,501
+LightGBM (poids sqrt),Packet Length Mean,477
+LightGBM (poids sqrt),Fwd Packet Length Mean,446
+LightGBM (poids sqrt),Average Packet Size,419
+LightGBM (poids sqrt),Fwd IAT Max,362
+LightGBM (poids sqrt),Total Backward Packets,359
+LightGBM (poids sqrt),Total_Bytes,356
+LightGBM (poids sqrt),Bwd Packet Length Std,355
+LightGBM (poids sqrt),Flow IAT Std,349
+LightGBM (poids sqrt),Bwd Packet Length Mean,322
+LightGBM (poids sqrt),Packet Length Std,289
+LightGBM (poids sqrt),Down/Up Ratio,272
+LightGBM (poids sqrt),act_data_pkt_fwd,269
+LightGBM (poids sqrt),Fwd Packet Length Std,262
+LightGBM (poids sqrt),Total Fwd Packets,253
+LightGBM (poids sqrt),Traffic_Volume,249
+LightGBM (poids sqrt),Bwd Packet Length Max,235
+LightGBM (poids sqrt),Bwd IAT Max,213
+LightGBM (poids sqrt),Bwd Packet Length Min,206
+LightGBM (poids sqrt),Idle Min,199
+LightGBM (poids sqrt),Bwd IAT Mean,184
+LightGBM (poids sqrt),Bwd Header Length,184
+LightGBM (poids sqrt),Active Min,180
+LightGBM (poids sqrt),Bwd IAT Total,172
+LightGBM (poids sqrt),Idle Mean,171
+LightGBM (poids sqrt),Max Packet Length,118
+LightGBM (poids sqrt),PSH Flag Count,111
+LightGBM (poids sqrt),Fwd Packet Length Min,104
+LightGBM (poids sqrt),Active Std,94
+LightGBM (poids sqrt),Active Mean,84
+LightGBM (poids sqrt),ACK Flag Count,76
+LightGBM (poids sqrt),Min Packet Length,75
+LightGBM (poids sqrt),Idle Max,57
+LightGBM (poids sqrt),FIN Flag Count,47
+LightGBM (poids sqrt),Idle Std,44
+LightGBM (poids sqrt),Fwd PSH Flags,40
+LightGBM (poids sqrt),Active Max,10
+LightGBM (poids sqrt),Bwd PSH Flags,0
+LightGBM (poids sqrt),Bwd URG Flags,0
+LightGBM (poids sqrt),Packet Length Variance,0
+LightGBM (poids sqrt),Fwd URG Flags,0
+LightGBM (poids sqrt),RST Flag Count,0
+LightGBM (poids sqrt),SYN Flag Count,0
+LightGBM (poids sqrt),Bwd Avg Bulk Rate,0
+LightGBM (poids sqrt),Bwd Avg Packets/Bulk,0
+LightGBM (poids sqrt),Subflow Fwd Bytes,0
+LightGBM (poids sqrt),Subflow Fwd Packets,0
+LightGBM (poids sqrt),Fwd Avg Packets/Bulk,0
+LightGBM (poids sqrt),Fwd Avg Bytes/Bulk,0
+LightGBM (poids sqrt),Avg Bwd Segment Size,0
+LightGBM (poids sqrt),Avg Fwd Segment Size,0
+LightGBM (poids sqrt),CWE Flag Count,0
+LightGBM (poids sqrt),ECE Flag Count,0
+LightGBM (poids sqrt),Bwd Avg Bytes/Bulk,0
+LightGBM (poids sqrt),Fwd Avg Bulk Rate,0
+LightGBM (poids sqrt),Subflow Bwd Bytes,0
+LightGBM (poids sqrt),Subflow Bwd Packets,0

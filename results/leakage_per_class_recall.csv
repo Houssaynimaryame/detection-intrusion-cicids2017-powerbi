@@ -1,0 +1,22 @@
+Scenario,Class,Recall
+A - Aléatoire (toutes features),Benign,0.9993
+A - Aléatoire (toutes features),Bot,0.7429
+A - Aléatoire (toutes features),Brute Force,0.9984
+A - Aléatoire (toutes features),DDoS,1.0
+A - Aléatoire (toutes features),DoS,0.9996
+A - Aléatoire (toutes features),Port Scan,0.9994
+A - Aléatoire (toutes features),Web Attack,0.9883
+B - Temporel (toutes features),Benign,0.9998
+B - Temporel (toutes features),Bot,0.0054
+B - Temporel (toutes features),Brute Force,0.9977
+B - Temporel (toutes features),DDoS,0.998
+B - Temporel (toutes features),DoS,0.9577
+B - Temporel (toutes features),Port Scan,0.9959
+B - Temporel (toutes features),Web Attack,0.9728
+C - Temporel (sans Destination Port),Benign,0.9994
+C - Temporel (sans Destination Port),Bot,0.0
+C - Temporel (sans Destination Port),Brute Force,0.9758
+C - Temporel (sans Destination Port),DDoS,0.9977
+C - Temporel (sans Destination Port),DoS,0.9478
+C - Temporel (sans Destination Port),Port Scan,0.9959
+C - Temporel (sans Destination Port),Web Attack,0.9654

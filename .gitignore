@@ -1,0 +1,20 @@
+# Données (trop volumineuses pour GitHub : limite 100 Mo par fichier)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Environnements virtuels (si ton dossier "python/" est un venv, il doit être ignoré)
+.venv/
+venv/
+env/
+python/
+
+# Divers
+.DS_Store
+Thumbs.db

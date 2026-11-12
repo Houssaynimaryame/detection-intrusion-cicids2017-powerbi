@@ -1,0 +1,2 @@
+Model,Detection_rate_recall,Precision,False_alarm_rate,Missed_attacks,False_alarms,Attacks_in_test,Benign_in_test
+LightGBM (poids sqrt),0.99092,0.99804,0.00039,734,157,80875,398057

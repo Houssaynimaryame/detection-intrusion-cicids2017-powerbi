@@ -1,0 +1,4 @@
+Scenario,Accuracy,F1_weighted,Macro_F1,MCC
+A - Aléatoire (toutes features),0.9992,0.9992,0.9722,0.9972
+B - Temporel (toutes features),0.9955,0.9952,0.8413,0.985
+C - Temporel (sans Destination Port),0.9944,0.994,0.8303,0.9812

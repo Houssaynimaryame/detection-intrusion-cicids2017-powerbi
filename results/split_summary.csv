@@ -1,0 +1,8 @@
+Attack_Category,Train,Test,% Test
+Benign,1676049,398057,19.2
+DoS,154997,36810,19.2
+DDoS,102412,24322,19.2
+Port Scan,72556,17231,19.2
+Brute Force,7321,1737,19.2
+Web Attack,1715,405,19.1
+Bot,1559,370,19.2

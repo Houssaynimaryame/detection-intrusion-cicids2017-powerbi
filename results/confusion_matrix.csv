@@ -1,0 +1,50 @@
+Model,Actual,Predicted,Count,Pct_of_Actual
+LightGBM (poids sqrt),Benign,Benign,397900,99.961
+LightGBM (poids sqrt),Benign,Bot,89,0.022
+LightGBM (poids sqrt),Benign,Brute Force,1,0.0
+LightGBM (poids sqrt),Benign,DDoS,3,0.001
+LightGBM (poids sqrt),Benign,DoS,58,0.015
+LightGBM (poids sqrt),Benign,Port Scan,3,0.001
+LightGBM (poids sqrt),Benign,Web Attack,3,0.001
+LightGBM (poids sqrt),Bot,Benign,144,38.919
+LightGBM (poids sqrt),Bot,Bot,226,61.081
+LightGBM (poids sqrt),Bot,Brute Force,0,0.0
+LightGBM (poids sqrt),Bot,DDoS,0,0.0
+LightGBM (poids sqrt),Bot,DoS,0,0.0
+LightGBM (poids sqrt),Bot,Port Scan,0,0.0
+LightGBM (poids sqrt),Bot,Web Attack,0,0.0
+LightGBM (poids sqrt),Brute Force,Benign,6,0.345
+LightGBM (poids sqrt),Brute Force,Bot,0,0.0
+LightGBM (poids sqrt),Brute Force,Brute Force,1731,99.655
+LightGBM (poids sqrt),Brute Force,DDoS,0,0.0
+LightGBM (poids sqrt),Brute Force,DoS,0,0.0
+LightGBM (poids sqrt),Brute Force,Port Scan,0,0.0
+LightGBM (poids sqrt),Brute Force,Web Attack,0,0.0
+LightGBM (poids sqrt),DDoS,Benign,49,0.201
+LightGBM (poids sqrt),DDoS,Bot,0,0.0
+LightGBM (poids sqrt),DDoS,Brute Force,0,0.0
+LightGBM (poids sqrt),DDoS,DDoS,24269,99.782
+LightGBM (poids sqrt),DDoS,DoS,4,0.016
+LightGBM (poids sqrt),DDoS,Port Scan,0,0.0
+LightGBM (poids sqrt),DDoS,Web Attack,0,0.0
+LightGBM (poids sqrt),DoS,Benign,465,1.263
+LightGBM (poids sqrt),DoS,Bot,0,0.0
+LightGBM (poids sqrt),DoS,Brute Force,0,0.0
+LightGBM (poids sqrt),DoS,DDoS,10,0.027
+LightGBM (poids sqrt),DoS,DoS,35472,96.365
+LightGBM (poids sqrt),DoS,Port Scan,860,2.336
+LightGBM (poids sqrt),DoS,Web Attack,3,0.008
+LightGBM (poids sqrt),Port Scan,Benign,65,0.377
+LightGBM (poids sqrt),Port Scan,Bot,0,0.0
+LightGBM (poids sqrt),Port Scan,Brute Force,0,0.0
+LightGBM (poids sqrt),Port Scan,DDoS,0,0.0
+LightGBM (poids sqrt),Port Scan,DoS,2,0.012
+LightGBM (poids sqrt),Port Scan,Port Scan,17162,99.6
+LightGBM (poids sqrt),Port Scan,Web Attack,2,0.012
+LightGBM (poids sqrt),Web Attack,Benign,5,1.235
+LightGBM (poids sqrt),Web Attack,Bot,0,0.0
+LightGBM (poids sqrt),Web Attack,Brute Force,0,0.0
+LightGBM (poids sqrt),Web Attack,DDoS,0,0.0
+LightGBM (poids sqrt),Web Attack,DoS,1,0.247
+LightGBM (poids sqrt),Web Attack,Port Scan,2,0.494
+LightGBM (poids sqrt),Web Attack,Web Attack,397,98.025

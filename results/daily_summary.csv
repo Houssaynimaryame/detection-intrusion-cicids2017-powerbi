@@ -1,0 +1,14 @@
+Day,Attack_Category,Count,Day_Order
+Monday,Benign,502464,1
+Tuesday,Benign,400833,2
+Tuesday,Brute Force,9150,2
+Wednesday,Benign,396727,3
+Wednesday,DoS,193745,3
+Wednesday,Heartbleed,11,3
+Thursday,Benign,400256,4
+Thursday,Infiltration,36,4
+Thursday,Web Attack,2143,4
+Friday,Benign,394777,5
+Friday,Bot,1948,5
+Friday,DDoS,128014,5
+Friday,Port Scan,90694,5

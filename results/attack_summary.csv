@@ -1,0 +1,10 @@
+Attack_Category,Count,Percentage
+Benign,2095057,83.111
+DoS,193745,7.686
+DDoS,128014,5.078
+Port Scan,90694,3.598
+Brute Force,9150,0.363
+Web Attack,2143,0.085
+Bot,1948,0.077
+Infiltration,36,0.001
+Heartbleed,11,0.0
