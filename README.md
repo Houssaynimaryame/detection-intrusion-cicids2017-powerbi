@@ -99,7 +99,12 @@ Même modèle (XGBoost sans poids), trois protocoles :
 ## Dashboard Power BI
 Voir [`POWERBI_GUIDE.md`](POWERBI_GUIDE.md) (modèle de données, pages, mesures DAX).
 
-> _Captures d'écran du dashboard à ajouter : `images/dashboard_overview.png`, `dashboard_attacks.png`, `dashboard_ml.png`._
+Fichier : [`powerbi/dashboard_cicids2017.pbix`](powerbi/dashboard_cicids2017.pbix)
+
+![Overview](images/dashboard_overview.png)
+![Analyse des attaques](images/dashboard_attacks.png)
+
+> Pages « Performance ML » et « Robustesse & features » en cours de finalisation.
 
 ## Limites
 - L'ordre des flux est **approximativement** chronologique (pas de timestamp). Le résultat de `Bot` en split temporel est à interpréter avec cette réserve.
