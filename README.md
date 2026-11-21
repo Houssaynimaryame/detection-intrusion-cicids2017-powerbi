@@ -12,7 +12,7 @@ Projet de data analytics / machine learning en cybersécurité : détecter et cl
 ## Structure du projet
 ```text
 ├── data/
-│   ├── raw/          # 8 CSV CICIDS2017 
+│   ├── raw/          # 8 CSV CICIDS2017 (non versionnés)
 │   └── processed/    # dataset nettoyé (généré, non versionné)
 ├── notebooks/
 │   ├── 01_load_merge_clean.ipynb           # fusion, nettoyage, exports Power BI
@@ -97,14 +97,25 @@ Même modèle (XGBoost sans poids), trois protocoles :
 - Les premiers résultats du projet (≈ 99,9 % d'Accuracy) venaient d'un split aléatoire et étaient donc optimistes.
 
 ## Dashboard Power BI
-Voir [`POWERBI_GUIDE.md`](POWERBI_GUIDE.md) (modèle de données, pages, mesures DAX).
 
-Fichier : [`powerbi/dashboard_cicids2017.pbix`](powerbi/dashboard_cicids2017.pbix)
+Fichier : [`powerbi/dashboard_cicids2017.pbix`](powerbi/dashboard_cicids2017.pbix) (4 pages, sources : les CSV de `results/`). Guide de construction : [`POWERBI_GUIDE.md`](POWERBI_GUIDE.md).
+
+| Page | Message clé |
+|---|---|
+| Overview | 83 % du trafic est bénin : le déséquilibre impose le Macro F1 |
+| Analyse des attaques | Chaque attaque a sa signature : jour de capture, ports ciblés, profil de trafic |
+| Performance ML | LightGBM détecte 99,1 % des attaques pour 0,04 % de fausses alertes |
+| Robustesse & features | Un split aléatoire gonfle le Macro F1 de 13 points (0,97 → 0,84) |
 
 ![Overview](images/dashboard_overview.png)
 ![Analyse des attaques](images/dashboard_attacks.png)
+![Performance ML](images/dashboard_ml.png)
+![Robustesse et features](images/dashboard_robustness.png)
 
-> Pages « Performance ML » et « Robustesse & features » en cours de finalisation.
+Notes de lecture :
+- « Importance » = nombre de fois où LightGBM utilise la variable dans ses arbres (pas une part de gain).
+- Le recall de 1,00 de Logistic Regression sur `Bot` est trompeur : le modèle sur-prédit cette classe (précision très faible).
+- La comparaison des protocoles (page 4) est faite avec XGBoost sans poids ; avec les poids « racine », le recall de `Bot` remonte à ≈ 64 %.
 
 ## Limites
 - L'ordre des flux est **approximativement** chronologique (pas de timestamp). Le résultat de `Bot` en split temporel est à interpréter avec cette réserve.
